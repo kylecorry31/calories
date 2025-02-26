@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Exercise Time Calculator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h2>Exercise Time Calculator</h2>
+        <form id="calorieForm">
+            <label for="calories">Calories Eaten:</label>
+            <input
+                type="number"
+                id="calories"
+                min="0"
+                placeholder="Enter calories"
+                required
+            />
+            <br />
+            <br />
+            <label for="weight">Your Weight (lbs):</label>
+            <input
+                type="number"
+                id="weight"
+                min="0"
+                placeholder="Enter weight in pounds"
+                required
+            />
+        </form>
+        <ul id="results"></ul>
+        <script src="script.js"></script>
+    </body>
+</html>
